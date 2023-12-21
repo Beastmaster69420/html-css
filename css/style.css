@@ -1,0 +1,209 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    background-image: url(https://img.freepik.com/premium-photo/black-red-background-with-red-light-pattern_894754-629.jpg);
+}
+.cart{
+    float: right;
+}
+.cart a{
+    float: right;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:white;
+}
+.cart a:hover{
+    color:purple;
+    text-wrap: nowrap;
+}
+
+header{
+    padding: 20px 0;
+    background-color: black;
+}
+header img{
+    height:100px;
+    width:150px;
+    display: block;
+}
+nav{
+    background-color: #3c4359;
+    text-decoration: none;
+    
+}
+.menu{
+    float: left;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:white;
+}
+.menu a:hover{
+    text-decoration:underline;
+    color: blue;
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+.search{
+    float: right;
+}
+.search input{
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.clear{
+    clear:both;
+}
+#Product{
+    background-color: black;
+    background-image: url(https://img.freepik.com/premium-photo/black-red-background-with-red-light-pattern_894754-629.jpg);
+}
+#banner{
+    position:relative;
+}
+#banner img{
+    width: 100%;
+    height: 400px;
+    display: block;
+    
+}
+.info{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    background-color:black;
+    padding: 50 px;
+}
+.info h2{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+.info span{
+    font-style:italic;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+.info a{
+    margin: 10px 0;
+    background-color: gray;
+    color: rgb(236, 228, 228);
+    display: block;
+
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image: url(https://img.freepik.com/premium-photo/black-red-background-with-red-light-pattern_894754-629.jpg);
+}
+.box{
+    background-image: url(https://img.freepik.com/premium-photo/black-red-background-with-red-light-pattern_894754-629.jpg);
+    /*height:300px;*/
+    width:33%;
+    position: relative;
+    color: rgb(235, 229, 229);
+    padding: 20px 10px;
+}
+.box img{
+    width: 100%;
+    height:350px;
+    display: block;
+    border-radius: 50px 20px;
+}
+.box h3{
+    color:rgb(231, 219, 219);
+    font-size: 30px;
+    font-family: cursive;
+}
+.hot,.stocked,.discount{
+    position:absolute;
+    top:0;
+    left:0;
+    padding: 10px 20px;
+    font-size:20px;
+    font-family: cursive;
+}
+.hot{
+    background-color: red;
+    color: rgb(40, 239, 14);
+}
+.stocked{
+    background-color:green ;
+    color: rgb(28, 9, 9);
+}
+.discount{
+    background-color: blue;
+    color:rgb(33, 23, 10);
+}
+.newsletter{
+    background-color: slategrey;
+    padding: 40px 0;
+    background-image: url(https://img.freepik.com/premium-photo/black-red-background-with-red-light-pattern_894754-629.jpg);
+}
+.newsletter form{
+    display:block;
+    text-align: center;
+}
+.newsletter input[type=text]{
+    padding:10px;
+    width: 300px;
+    border: 1px solid black;
+}
+.newsletter input[type=submit]{
+    padding:10px;
+    width: 100px;
+    background-color: red;
+    color:white;
+    border: none;
+}
+.newsletter h4{
+    color:white;
+    font-size: 30px;
+    font-family: cursive;
+}
+footer{
+    padding: 40px;
+    width:100%;
+    background-color:black;
+    background-image: url(https://img.freepik.com/premium-photo/black-red-background-with-red-light-pattern_894754-629.jpg);
+}
+.footer_boxes{
+    display: flex;
+}
+.footer_boxes h5{
+    color: red;
+    font-size: 20px;
+    font-family: cursive;
+}
+.footer_boxes ul{
+    list-style:none;
+}
+.footer_boxes ul li{
+    padding: 5px 0;;
+}
+.footer_boxes ul li a{
+    color:#3c4359;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;;
+}
+
+
